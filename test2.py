@@ -6,7 +6,23 @@ import joblib
 model = joblib.load("linear_regression_model.pkl")
 
 # Define available choices for inputs
-cities = ["Cupertino", "San Jose", ...]  # Include your full list
+cities = [
+    "Cupertino", "San Jose", "Foster City", "Redwood City", "Danville", "La Canada Flintridge", "Soquel", 
+    "Santa Clara", "Solana Beach", "Hermosa Beach", "Encino", "Fremont", "Orinda", "La Jolla", "Venice", 
+    "South San Francisco", "Los Alamitos", "San Bruno", "West Hollywood", "Newport Beach", "San Mateo", 
+    "Santa Barbara", "San Gabriel", "Cypress", "Colma", "Calabasas", "Encinitas", "Redondo Beach", "Glendale", 
+    "Rancho Palos Verdes", "Yorba Linda", "Morgan Hill", "Capitola", "Orange", "San Francisco", 
+    "Pacific Grove", "Laguna Niguel", "Los Angeles", "Carpinteria", "Torrance", "Woodland Hills", 
+    "Poway", "Aptos", "Carlsbad", "Monterey Park", "Goleta", "Fullerton", "Bonny Doon", "Garden Grove", 
+    "Hayward", "Diamond Bar", "Placentia", "Santa Cruz", "Brea", "Gilroy", "San Diego", "Anaheim", 
+    "Lakewood", "Seaside", "Canoga Park", "West Hills", "Daly City", "Van Nuys", "Santa Clarita", 
+    "Los angeles", "Monterey", "Covina", "Newhall", "Salinas", "Valencia", "Norco", "Del Rey Oaks", 
+    "Saugus", "Santa Paula", "Long Beach", "Ontario", "Castaic", "Granite Bay", "Ventura", "Seal Beach", 
+    "Signal Hill", "BAKERSFIELD", "Bear Valley", "Riverside", "Fontana", "Val Verde", "Roseville", 
+    "Oxnard", "Shafter", "Tehachapi", "Marina", "Bakersfield", "Clovis", "Sanger", "Fresno", 
+    "Santa Paula", "North Fontana", "Coarsegold"
+]
+
 home_types = ["SINGLE_FAMILY", "APARTMENT", ...]
 
 # Define the Shiny UI
