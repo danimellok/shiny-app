@@ -1,6 +1,20 @@
 from shiny import App, ui, reactive, render
 import pandas as pd
 import joblib
+from flask import Flask
+
+# Initialize the Flask app
+app = Flask(__name__)
+
+# Define a route for the home page
+@app.route('/')
+def home():
+    return "Hello, World! Your Flask app is running."
+
+# Run the app on port 3838, accessible from any IP
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=3838)
+
 
 # Load the pre-trained model
 model = joblib.load("linear_regression_model.pkl")
