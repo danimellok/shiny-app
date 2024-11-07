@@ -23,7 +23,7 @@ cities = [
     "Santa Paula", "North Fontana", "Coarsegold"
 ]
 
-home_types = ["SINGLE_FAMILY", "APARTMENT", ...]
+home_types = ["SINGLE_FAMILY", "APARTMENT", "MULTI_FAMILY", "TOWNHOUSE", "CONDO", "MANUFACTURED"]
 
 # Define the Shiny UI
 app_ui = ui.page_fluid(
