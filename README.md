@@ -1,3 +1,5 @@
+EC2 running: https://us-east-2.console.aws.amazon.com/ec2/home?region=us-east-2#Instances:instanceState=running
+
 # Setup and Deployment Instructions for Shiny App on EC2
 
 ### 1. Connect to Your EC2 Instance
